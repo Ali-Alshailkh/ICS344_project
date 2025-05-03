@@ -1,1 +1,33 @@
+1.	we check the IP address of the victim (metasploitable3):
+	Using the command:
+ 
+		          We get:
+ 
+2.	check the connectivity:
+a.	main host side:
+ 
+
+b.	attacker side:
+ 
+ 
+
+3.	scanning the address (address has been changed): 
+a.	scan using nmap
+ 
+
+
+b.	now lets work on ssh:
+ 
+i.	lets search for the vesion using this file:
+ 
+
+ii.	lets search for vulnerability within ssh:
+ 
+
+ 
+
+iii.	setting the attack: 
+ 
+I ran two attacks and none of them worked:
+ 
 
