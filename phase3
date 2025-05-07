@@ -1,3 +1,5 @@
-to encounter open ssh threats we should first set strong password
-second we should disable root login so no one can broute force the root acount
-third we should change the defult port number
+To mitigate OpenSSH threats, the following security measures are recommended:
+
+Implement robust password policies: Enforce the use of strong passwords that adhere to complexity requirements (e.g., minimum length, character diversity).
+Disable direct root login: Prohibit direct login to the root account to hinder brute-force attacks targeting this privileged user.
+Modify the default port: Change the default SSH port number to obscure the service from automated port scans and reduce its exposure to common attack vectors.
